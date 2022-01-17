@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Sebastian Lutteral</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="multimedia/logo.svg" alt="Logo de sebastian Lutteral">
+            </a>
+            <ul class="menuDesplegable">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#sobreMi">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#renders">Renders</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="portada">
+            <!--portada de algun trabajo que sebas quiera destacar-->
+            <h1>Sebastian Lutteral</h1>
+            <h2>Estudiante de arquitectura</h2>
+            <div class="grupoBotones">
+                <a href="#sobreMi" class="botonesRellenos">Conoceme</a>
+                <a href="#proyectos" class="botonesLinea">Mira mis proyectos</a>
+            </div>
+        </section>
+
+        <section id="sobreMi">
+            <h2>Sobre mi</h2>
+            <div>
+                <img src="multimedia/imagen-sombre-mi.png" alt="Sebastina Lutteral">
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quis, recusandae sunt dolores libero aut
+                esse? Dicta similique est provident nobis illo exercitationem cum beatae asperiores dolores ea. Eos,
+                accusantium.</p>
+            <a href="secciones/sobremi.html" class="botonesLinea botonesAlineacion">Conoceme</a>
+        </section>
+        <section id="proyectos">
+            <h2>Proyecto</h2>
+            <article class="galeriaTrabajos">
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+            </article>
+            <a href="secciones/proyectos.html" class="botonesLinea botonesAlineacion">Ver proyectos</a>
+        </section>
+
+        <section id="renders">
+            <h2>Renders</h2>
+            <article class="galeriaTrabajos">
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a render "></a>
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a>  
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+                <a href=""><img src="multimedia/imagen-proyectos.png" alt="link a proyecto"></a> 
+            </article>
+            <a href="secciones/renders.html" class="botonesLinea botonesAlineacion">Ver Rendes</a>
+        </section>
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <div>
+                <img src="multimedia/imagen-contacto.png" alt="">
+            </div>
+            <form action="enviar.php">
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text">
+                </div>  
+
+                <div>
+                    <label for="">Email</label>
+                    <input type="email">
+                </div>
+
+                <div>
+                    <label for="">Asunto</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label for="">Mensjae</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="botonesLinea botonesAlineacion">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <div >
+            <!--logo-->
+            <a href="index.html" class="logo">
+                <img src="multimedia/logo.svg" alt="Logo Sebastian Lutteral">
+            </a>
+            <!--links para recorrer la pagina-->
+            <ul class="links">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li><a href="index.html#sobremi">Sobre mi</a>
+                    <div>
+                        <a href="secciones/sobremi.html">Seccion sobre mi</a>
+                    </div>
+                    
+                </li>
+                <li>    
+                    <a href="index.html#proyectos">Proyectos</a>
+                    <div>
+                        <a href="secciones/proyectos.html">Sección proyectos</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html#renders">Renders</a>
+                    <div>
+                        <a href="secciones/renders.html">Sección renders</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="index.html#contacto">Contacto</a>
+                </li>
+            </ul>
+
+            <!--Redes sociales-->
+            <ul class="redes">
+                <!--insta youtube behance-->
+                <li><a href="" target="_blank"><img src="multimedia/instagram.png" alt="link a instagram"></a></li>
+                <li><a href="" target="_blank"><img src="multimedia/youtube.png" alt="link a youtube"></a></li>
+                <li><a href="" target="_blank"><img src="multimedia/linkedin.png" alt="link a linkedin"></a></li>
+            </ul>
+            <!--derechos de autor-->
+            <ul class="creditos">
+                <li><a href="https://www.flaticon.es/iconos-gratis/youtube" title="youtube iconos" target="_blank">Youtube icons created by riajulislam - Flaticon</a></li>
+                <li><a href="https://www.flaticon.es/iconos-gratis/red-social" title="red-social iconos" target="_blank">Red-social icons created by riajulislam - Flaticon</a></li>
+            </ul>
+            
+        </div>
+
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
